@@ -1,0 +1,278 @@
+{small screen}
+@media only screen and (max-width: 601px) {
+html {
+ border: 10px solid purple;
+}
+h1 {color: purple;}
+
+body {
+    border: 10px solid #96ffe1;
+    
+}
+header {
+    background-color: lightskyblue;
+    height: 8rem;
+    border: 10px solid black;
+}
+
+header h1{
+    color: #96ffe1;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1.5rem .1rem .1rem .1rem;
+    padding: 0 10px;
+    text-align: center;
+}
+
+header p {
+    color: darkred;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: .1rem;
+    padding: 0 10px;
+    text-align: center;
+}
+nav a {
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: ;
+    font-size: 1.3rem;
+    color: lightgreen;
+    font-weight: 700;
+    text-align: center;
+}
+
+nav {
+    background-color: darkred;
+    margin: none;
+    border: 10px solid black;
+    height: 20rem;
+    text-align: center;
+}
+
+nav ul {
+    display: block;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    color: lightgreen;
+    font-weight: 700;
+    list-style-type:none;
+    text-align: center;
+}
+
+    nav a {
+    display: block;
+    padding: 1rem 5rem;
+    text-decoration: ;
+    font-size: 1.3rem;
+    color: lightgreen;
+    font-weight: 700;
+    text-align: center;
+    }
+
+nav li.active a{
+    background-color: #96ffe1;
+    color: lightskyblue;
+}
+
+nav li a:hover {
+    color: lightskyblue;
+}
+     
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+
+html {
+ border: 10px solid purple;
+}
+h1 {color: purple;}
+
+body {
+    border: 10px solid #96ffe1;
+    
+}
+header {
+    background-color: lightskyblue;
+    height: 7rem;
+    border: 10px solid black;
+}
+
+header h1{
+    color: #96ffe1;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 1.5rem .1rem .1rem .1rem;
+    padding: 0 10px;
+    text-align: center;
+}
+
+header p {
+    color: darkred;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin: .1rem;
+    padding: 0 10px;
+    text-align: center;
+}
+nav a {
+    display: block;
+    padding: 1rem 1rem;
+    text-decoration: ;
+    font-size: 1.3rem;
+    color: lightgreen;
+    font-weight: 700;
+    text-align: center;
+}
+
+nav {
+    background-color: darkred;
+    margin: none;
+    border: 10px solid black;
+    height: 7rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    padding: 1rem 1rem;
+    font-size: 1.3rem;
+    color: lightgreen;
+    font-weight: 700;
+    list-style-type:none;
+    text-align: center;
+}
+
+    nav a {
+    display: flex;
+    padding: 1rem 1rem;
+    text-decoration: ;
+    font-size: 1.3rem;
+    color: lightgreen;
+    font-weight: 700;
+    text-align: center;
+    }
+
+nav li.active a{
+    background-color: #96ffe1;
+    color: lightskyblue;
+}
+
+nav li a:hover {
+    color: lightskyblue;
+}
+    
+    
+}
+
+main {
+    margin: 1rem;
+}
+
+div.pics {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.pics figure {
+    margin: .5rem 2% 0 0;
+}
+
+div.pics figcaption {
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+    margin: 0.6rem 2rem 2rem 2rem;
+}
+div.pics figure :hover{
+    box-shadow: 10px 5px;
+}
+
+.myForm label{
+    padding: .75rem;
+    font-size: 1.25rem;
+    color: purple;
+}
+
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+    display: block;
+}
+
+.myForm fieldset {
+    border: 5px solid skyblue;
+    margin: 1rem 0 2rem 0;
+}
+
+.myForm textarea {
+    height: 17.25rem;
+    width: 17.25rem;
+    border: 10px double #96ffe1;
+}
+
+.myForm select {
+    height: 3rem;
+    border: 2.5px solid darkred;
+}
+
+.myForm :required {
+    background-color: rgba(156,51,53,0.3);
+}
+
+.myForm [type=submit] {
+    background-color: black;
+    border: 5px outset lightgreen;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: darkred;
+    margin: 1rem 0 0 1vw;
+    font-size: 1.25rem;
+}
+table.our-activities {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.our-activities th {
+    background-color: #00b57c;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table.our-activities td {
+    color:teal;
+    padding: .4rem 2vw;
+}
+
+table.our-activities tr:nth-child(odd) {
+    background-color: pink;
+}
+table.our-activities tr:hover {
+    background-color: #72d4f7;
+}
+
+footer {
+    background-color: darkred;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color:lightskyblue;
+    letter-spacing: 5px;
+}
+
